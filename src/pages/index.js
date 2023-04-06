@@ -9,6 +9,7 @@ import Choose from "@/components/Home/ChooseUs/Choose";
 import ContactForm from "@/components/Contact/ContactForm";
 import Testomo from "@/components/Home/Testo/Testomo";
 import GoogleReviews from "@/components/Home/GoogleReviews";
+import Clients from "@/components/Home/Clients";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         {/* <Slider /> */}
         <GoogleReviews />
         <Choose />
+        <Clients /> 
         <Testomo />
         <ContactForm />
       </main>
