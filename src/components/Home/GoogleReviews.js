@@ -4,18 +4,26 @@ function GoogleReviews() {
   return (
     <>
       <div className="flex lg:flex-row flex-col max-w-[1400px] m-auto py-20">
-        <div className="flex flex-1 flex-row">
+        <div className="flex flex-1 flex-row px-10">
           <div className="flex flex-col flex-1 justify-center items-center">
-            <p className="text-8xl text-center font-bold">4.8</p>
-            <img className="max-w-[180px]" src="\assets\stars.png" />
-            <p className="text-2xl">Google Reviews</p>
+            <p className="lg:text-8xl text-6xl text-center font-bold">4.8</p>
+            <img
+              className="lg:max-w-[180px] max-w-[140px]"
+              src="\assets\stars.png"
+            />
+            <p className="lg:text-2xl text-l">Google Reviews</p>
           </div>
 
-          <div className="flex-1 bg-white">
+          <div className="flex flex-col flex-1 justify-center items-center">
             <div className="flex flex-col flex-1 justify-center items-center">
-              <p className="text-8xl text-center font-bold">A+</p>
-              <img className="max-w-[180px]" src="\assets\stars.png" />
-              <p className="text-2xl text-center">Certified Engineers</p>
+              <p className="lg:text-8xl text-6xl text-center font-bold">A+</p>
+              <img
+                className="lg:max-w-[180px] max-w-[140px]"
+                src="\assets\stars.png"
+              />
+              <p className="lg:text-2xl text-l text-center">
+                Certified Engineers
+              </p>
             </div>
           </div>
         </div>
