@@ -4,11 +4,11 @@ function Choose() {
   return (
     <>
       <div className="py-8">
-        <h2 className="text-center text-red-500 text-4xl font-semibold">
+        <h2 className="text-center text-red-500 text-5xl font-semibold mb-10">
           Why Choose Us?
         </h2>
         <div className="lg:px-200 lg:flex lg:flex-col lg:justify-center lg:max-w-[1400px] lg:m-auto">
-          <div className="pt-5 flex flex-1 justify-center flex-col lg:flex-row md:flex-row gap-8">
+          <div className="pt-5 pb-10 flex flex-1 justify-center flex-col lg:flex-row md:flex-row gap-8">
             <div className="flex flex-1 justify-center flex-col text-center items-center">
               <img
                 className="w-20"

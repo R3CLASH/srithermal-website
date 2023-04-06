@@ -8,6 +8,7 @@ import Slider from "@/components/Home/Slider/slider";
 import Choose from "@/components/Home/ChooseUs/Choose";
 import ContactForm from "@/components/Contact/ContactForm";
 import Testomo from "@/components/Home/Testo/Testomo";
+import GoogleReviews from "@/components/Home/GoogleReviews";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
           btnText="Contact Us"
         />
         {/* <Slider /> */}
+        <GoogleReviews />
         <Choose />
         <Testomo />
         <ContactForm />
