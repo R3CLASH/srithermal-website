@@ -42,7 +42,7 @@ function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li style={{ color: `${navTextColor}` }} className="p-3 text-lg">
-            <Link href="/#gallery">Services</Link>
+            <Link href="/services">Services</Link>
           </li>
           <li style={{ color: `${navTextColor}` }} className="p-3 text-lg">
             <Link href="/about">About</Link>
@@ -79,7 +79,7 @@ function Navbar() {
               onClick={handleNav}
               className="text-3xl p-4 hover:text-gray-500"
             >
-              <Link href="/#gallery">Services</Link>
+              <Link href="/services">Services</Link>
             </li>
             <li
               onClick={handleNav}

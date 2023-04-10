@@ -1,12 +1,20 @@
 import React from "react";
-
+import CountUp from "react-countup";
 function GoogleReviews() {
   return (
     <>
       <div className="flex lg:flex-row flex-col max-w-[1400px] m-auto py-20">
         <div className="flex flex-1 flex-row px-10">
           <div className="flex flex-col flex-1 justify-center items-center">
-            <p className="lg:text-8xl text-6xl text-center font-bold">4.8</p>
+            <p className="lg:text-8xl text-6xl text-center font-bold">
+              <CountUp
+                duration={10}
+                className="counter"
+                end={4.8}
+                decimals={1}
+                enableScrollSpy={true}
+              />
+            </p>
             <img
               className="lg:max-w-[180px] max-w-[140px]"
               src="\assets\stars.png"

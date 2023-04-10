@@ -3,7 +3,7 @@ import Link from "next/link";
 function Clients() {
   return (
     <>
-      <div className="clients-sec block lg:flex lg:justify-center px-10 py-10 text-center lg:text-left items-top lg:max-w-[1300px]">
+      <div className="clients-sec block lg:flex lg:justify-center px-10 py-10 text-center lg:text-left items-top lg:max-w-[1300px] lg:m-auto">
         <div className="pt-5">
           <h4 className="text-5xl  text-red-500 font-semibold text-center lg:text-left py-5 pb-5 lg:pb-10">
             Our Clients
